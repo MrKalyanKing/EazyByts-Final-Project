@@ -6,7 +6,7 @@ export const GeneralContext=createContext();
 
 export const ContextProvider=({children})=>{
   
-   const url=`http://localhost:8080/api`
+   const url=`https://kalyanevents.onrender.com/api`
    
  
     return (
