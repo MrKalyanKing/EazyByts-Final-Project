@@ -1,0 +1,105 @@
+.events{
+    overflow: hidden;
+    
+}
+.cards{
+    overflow: hidden;
+}
+.head h1{
+    font-size: 35px;
+    margin-top: 40px;
+}
+.head1 {
+    display: flex;
+    align-items: center; /* Aligns the items vertically centered */
+}
+
+.head1 span {
+    font-size: 20px;
+    margin-right: 10px; /* Adds space between the text and hr */
+}
+
+.head1 hr {
+    flex-grow: 1; /* Makes the <hr> take up the remaining width */
+ 
+    margin: 0; /* Removes default margins */
+}
+
+.card{
+    width: 30vw;
+    height: 80vh;
+    text-align: center;
+}
+.card img{
+    height: 80vh;
+}
+.card .date{
+    background-color: aquamarine;
+    width: 17vw;
+    height: 5vh;
+    margin-top: -460px;
+    margin-left: 20px;
+}
+.card .location{
+    margin-top:320px ;
+    text-align: left;
+    padding: 20px;
+    color: white;
+}
+.card .location span{
+    font-size: 27px;
+    cursor: pointer;
+    
+}
+.card .location .time span{
+     font-size: 15px;
+}
+.card .location .out:hover{
+    color: violet;
+}
+@media (max-width:400px){
+    .card{
+        width: 100vw;
+        height: 80vh;
+    }
+    .card .date{
+        width: 50vw;
+        height: 5vh;
+        margin-top: -500px;
+    }
+    .rows{
+       margin-bottom: 0px;
+    }
+    .card img{
+        height: 80vh;
+    }
+}
+
+@media (max-width:768px){
+    .card{
+        width: 80vw;
+        height: 80vh;
+    }
+    .card .date{
+        width: 50vw;
+        height: 5vh;
+        margin-top: -450px;
+    }
+    .rows{
+       margin-bottom: 0px;
+    }
+    .card img{
+        height: 80vh;
+    }
+}
+@media (max-width:992px){
+  .cards{
+    width: 100vw;
+    height: 100vh;
+  }
+  .card .date{
+    width: 50vw;
+    height: 5vh;
+    margin-top: -500px;
+}
+}

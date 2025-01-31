@@ -1,0 +1,36 @@
+.col-1 img{
+    width: 30vw;
+    height: 90vh;
+    border-radius: 10px;
+}
+.about{
+    overflow: hidden;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.col-2{
+    margin-top: 100px;
+    width: 30vw;
+}
+.col-3{
+    margin-left: -100px;
+}
+
+@media (max-width:400px){
+    .about{
+        flex-direction: column;
+    }
+    .count{
+        margin-left: -70px;
+    }
+}
+@media (max-width:768px){
+    .count{
+        margin-left: -150px;
+    }
+}
+@media (max-width:992px){
+    .count{
+        margin-left: -240px;
+    }
+}

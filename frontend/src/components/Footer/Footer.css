@@ -1,0 +1,142 @@
+.footer {
+    background-color: #000;
+    color: white;
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    width: 85%;
+    margin: auto;
+  }
+  
+  .footer-top {
+    text-align: center;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-top h2 {
+    font-size: 20px;
+  }
+  
+  .footer-top p {
+    margin-bottom: 15px;
+  }
+  
+  .subscribe {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .subscribe input {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+  
+  .subscribe button {
+    background-color: #66ff99;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    width: 23%;
+  }
+  
+  .footer-section h3 {
+    color: #b585ff;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #66ff99;
+  }
+  
+  .social-icons a {
+    margin-right: 15px;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #66ff99;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid #444;
+    padding-top: 15px;
+  }
+  
+  .footer-bottom a {
+    color: #b585ff;
+    text-decoration: none;
+  }
+  
+  .footer-bottom a:hover {
+    color: #66ff99;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .footer-content {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    .footer-top{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    .footer-section {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  @media (max-width:400px){
+    .footer-top{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    .footer-content {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .footer-section {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+
+  
